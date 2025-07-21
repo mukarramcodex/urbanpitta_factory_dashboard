@@ -23,7 +23,7 @@ class AdminController extends Controller
 
     public function show(string $id)
     {
-        //
+        return view('admin.dashboard');
     }
 
     public function edit(string $id)

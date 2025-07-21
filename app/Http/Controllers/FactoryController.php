@@ -35,7 +35,7 @@ class FactoryController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return view('factory.dashboard');
     }
 
     /**
